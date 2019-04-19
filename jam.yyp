@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "004a8d0e-cd3b-4b81-bdf4-e4a24e1d9f71",
+            "Value": {
+                "id": "8b48a3cf-69b9-492e-9499-4e3495b23cd0",
+                "resourcePath": "sprites\\sBeer\\sBeer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1157e80b-3f97-4aec-aee9-e667fef5d00b",
             "Value": {
                 "id": "3104808c-e3a4-4451-a1cb-52778eac4bce",
@@ -87,6 +95,14 @@
             }
         },
         {
+            "Key": "4c0d59ba-b9c9-49d3-a0a2-9cf0dd45a4f2",
+            "Value": {
+                "id": "5db5182e-6928-4760-adb3-06220f7c6ab7",
+                "resourcePath": "sprites\\sWall\\sWall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5434fe14-e566-4acd-bb7e-cac206df4073",
             "Value": {
                 "id": "b7200330-c381-49dc-862f-3881810aa4aa",
@@ -127,11 +143,27 @@
             }
         },
         {
+            "Key": "6618e3d1-22e0-47c3-b811-fe42b71f1689",
+            "Value": {
+                "id": "970ec007-9cf3-4532-a11a-ada0bde9fb57",
+                "resourcePath": "scripts\\pick_up_object\\pick_up_object.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "66a6b9a6-8d9a-4c78-b035-5f653aa6a35c",
             "Value": {
                 "id": "fd1171a3-bc30-453e-a9a7-bb10831e33f2",
                 "resourcePath": "views\\66a6b9a6-8d9a-4c78-b035-5f653aa6a35c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6e14be83-3f6a-4ded-b4dd-45b991b8629e",
+            "Value": {
+                "id": "d2e33242-4ec1-49c5-bb0f-dff1f2fe7171",
+                "resourcePath": "objects\\oWall\\oWall.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -162,7 +194,7 @@
             "Key": "81314dc7-64fd-467a-9ed3-a2347dfe1537",
             "Value": {
                 "id": "8d781b16-8ac2-4acc-bb60-2641bc3e15f2",
-                "resourcePath": "scripts\\alck_movement\\alck_movement.yy",
+                "resourcePath": "scripts\\alckash_movement\\alckash_movement.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -191,6 +223,14 @@
             }
         },
         {
+            "Key": "a256723f-b32c-47c6-8f78-ca8990e75a8d",
+            "Value": {
+                "id": "e7d46f2c-1182-4bb0-bb4b-ee6545c3030c",
+                "resourcePath": "objects\\oBeer\\oBeer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "c9263691-2bd2-4e43-b3fd-7b1bfb3e3399",
@@ -204,6 +244,14 @@
                 "id": "a3acbe49-2e3d-4539-b975-0a88f4eda0d0",
                 "resourcePath": "views\\b0af6bed-7fbc-4cce-a413-7e1eea3a3e2a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b0b33a58-87f7-446b-b144-c43c2942bcce",
+            "Value": {
+                "id": "2e9722d1-bbfc-422d-a8a0-5feae43408d0",
+                "resourcePath": "scripts\\make_damage\\make_damage.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -234,7 +282,7 @@
             "Key": "c7d5a5f1-f884-43f2-965d-6c588195bac6",
             "Value": {
                 "id": "15adfda7-dcbc-4612-a0f3-118370425a5f",
-                "resourcePath": "sprites\\sprite2\\sprite2.yy",
+                "resourcePath": "sprites\\sGrid\\sGrid.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -274,7 +322,7 @@
             "Key": "dc7695f5-390f-4365-bccc-764708559be1",
             "Value": {
                 "id": "8086a585-2824-404f-8f95-639a372952e4",
-                "resourcePath": "sprites\\spAlckash\\spAlckash.yy",
+                "resourcePath": "sprites\\sAlckash\\sAlckash.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -284,14 +332,6 @@
                 "id": "577e9e9d-dbb7-4660-bb69-d8a3a758d778",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
-            }
-        },
-        {
-            "Key": "eff15a92-31b3-428f-9d8d-6810c0e8d169",
-            "Value": {
-                "id": "5c089acf-88af-404e-bbdf-e17213aafdbd",
-                "resourcePath": "sprites\\sprite0\\sprite0.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -312,7 +352,9 @@
         }
     ],
     "script_order": [
-        "81314dc7-64fd-467a-9ed3-a2347dfe1537"
+        "81314dc7-64fd-467a-9ed3-a2347dfe1537",
+        "b0b33a58-87f7-446b-b144-c43c2942bcce",
+        "6618e3d1-22e0-47c3-b811-fe42b71f1689"
     ],
     "tutorial": ""
 }
