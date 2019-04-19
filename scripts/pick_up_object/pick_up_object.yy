@@ -1,8 +1,8 @@
 {
-    "id": "81314dc7-64fd-467a-9ed3-a2347dfe1537",
+    "id": "6618e3d1-22e0-47c3-b811-fe42b71f1689",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "alck_movement",
+    "name": "pick_up_object",
     "IsCompatibility": false,
     "IsDnD": false
 }

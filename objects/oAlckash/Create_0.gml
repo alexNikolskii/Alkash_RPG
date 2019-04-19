@@ -3,9 +3,7 @@
 
 fist = 2; // Отдельный объект в будущем
 
-
-// Направление
-isDirChange = false;
+//Первоначальное смещение
 xOffset = 0;
 yOffset = 0;
 
@@ -18,6 +16,6 @@ money = 0; // Значение денег для взятки
 
 cellSize = 64
 
-x = 5* cellSize + cellSize/2
-y = 3* cellSize + cellSize/2
+x = 5 * cellSize + cellSize / 2
+y = 3 * cellSize + cellSize / 2
 
