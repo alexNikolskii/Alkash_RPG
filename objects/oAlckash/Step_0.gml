@@ -3,25 +3,25 @@
 
 if (keyboard_check_pressed(ord("W"))) 
 	{ 
-		yOffset = -cellSize;
+		yOffset = -oConfig.cellSize;
 		isDirChange = true;
 	} 
 
 	if (keyboard_check_pressed(ord("S"))) 
 	{ 
-		yOffset = cellSize;
+		yOffset = oConfig.cellSize;
 		isDirChange = true;
 	} 
 
 	if (keyboard_check_pressed(ord("A"))) 
 	{ 
-		xOffset = -cellSize;
+		xOffset = -oConfig.cellSize;
 		isDirChange = true;
 	} 
 
 	if (keyboard_check_pressed(ord("D"))) 
 	{ 
-		xOffset = cellSize;
+		xOffset = oConfig.cellSize;
 		isDirChange = true;
 	}
 	
